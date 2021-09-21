@@ -1,0 +1,9 @@
+1: syntax Tree ::= "Left" Tree "Right" Tree
+    `Left_Right__LESSON-04-EX3_Tree_Tree_Tree`(`Left__LESSON-04-EX3_Tree_Tree`(`Leaf__LESSON-04-EX3_Tree_Exp`(`false_LESSON-04-EX3_Exp`(.KList))),`Leaf__LESSON-04-EX3_Tree_Exp`(`false_LESSON-04-EX3_Exp`(.KList)))
+2: syntax Tree ::= "Left" Tree
+    `Left__LESSON-04-EX3_Tree_Tree`(`Left_Right__LESSON-04-EX3_Tree_Tree_Tree`(`Leaf__LESSON-04-EX3_Tree_Exp`(`false_LESSON-04-EX3_Exp`(.KList)),`Leaf__LESSON-04-EX3_Tree_Exp`(`false_LESSON-04-EX3_Exp`(.KList))))
+
+It is ambiguous because it is unclear wether the `Right` branch is from the first Tree, or from the second Tree.
+
+After using the `[prefer]` attribute:
+    `Left__LESSON-04-EX3_Tree_Tree`(`Left_Right__LESSON-04-EX3_Tree_Tree_Tree`(`Leaf__LESSON-04-EX3_Tree_Exp`(`false_LESSON-04-EX3_Exp`(.KList)),`Leaf__LESSON-04-EX3_Tree_Exp`(`false_LESSON-04-EX3_Exp`(.KList))))
