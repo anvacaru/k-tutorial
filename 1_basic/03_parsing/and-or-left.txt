@@ -1,0 +1,4 @@
+### Expected
+`_||__LESSON-03-D_Boolean_Boolean_Boolean`(`_&&__LESSON-03-D_Boolean_Boolean_Boolean`(`true_LESSON-03-D_Boolean`(.KList),`false_LESSON-03-D_Boolean`(.KList)),`false_LESSON-03-D_Boolean`(.KList)))
+### Output
+`_||__LESSON-03-D_Boolean_Boolean_Boolean`(`_&&__LESSON-03-D_Boolean_Boolean_Boolean`(`true_LESSON-03-D_Boolean`(.KList),`false_LESSON-03-D_Boolean`(.KList)),`false_LESSON-03-D_Boolean`(.KList))
