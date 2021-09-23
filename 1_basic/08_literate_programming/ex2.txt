@@ -1,0 +1,1 @@
+kompile README-1-3.md --main-module LESSON-03-D --md-selector 'k & (! exclude)'
