@@ -1,0 +1,6 @@
+int a = 0;
+int b = 0;
+int c = 0;
+bool d = false;
+fun test () {a = 25 * 5; return 10; }
+fun main () {b = test () ; c = 101 ; d = (a <= (c * 2)); return true;}
