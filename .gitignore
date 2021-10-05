@@ -1,3 +1,4 @@
 #ignore kompiled dirs
 
 **/*-kompiled
+**/*.krun*
