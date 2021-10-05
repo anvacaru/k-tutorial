@@ -1,0 +1,9 @@
+int a = 0;
+int b = 0;
+int c = 0;
+bool d = false;
+bool e = false;
+fun test () {a = 25 * 5; return 10; }
+fun isTrue() { return true; }
+fun isFalse() { return false; }
+fun main () {b = test () ; c = 101 ; d = (a <= (c * 2)); if(isTrue()) {e = true; } return true;}
